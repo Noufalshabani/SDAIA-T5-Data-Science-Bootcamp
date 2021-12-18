@@ -1,146 +1,98 @@
+<img align="right" width="200" height="60" src="https://upload.wikimedia.org/wikipedia/ar/2/21/%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9_%D8%B3%D8%AF%D8%A7%D9%8A%D8%A7.png">
 
-![enter image description here](https://www.wzufa.com/wp-content/uploads/2021/07/Sdaia-Academy.png)
-# Introduction:
+
+\
+&nbsp;
+\
+&nbsp;
+
+\
+&nbsp;
+\
+&nbsp;
+ # <p  align="center">  **Classification Models - Employee Promotions** </p>
+\
+&nbsp;
+
+ 
+
+<p align="center">
+  <img width="460" height="300" src="https://t4.ftcdn.net/jpg/04/15/29/51/240_F_415295138_VZEnsaqSSgQ8py40Td5shJJb6JdfFlwb.jpg">
+</p>
+
+\
+&nbsp;
+\
+&nbsp;
+
+## Introduction:
 There are many companies trying to determine which employees are eligible for a promotion by a certain evaluation, and with thousands of employees, this is delaying the transition to new positions. Hence, the company needs to help identify the qualified candidates at a particular checkpoint so that they can speed up the entire promotion cycle.
+\
+&nbsp;
+\
+&nbsp;
 
-
-# Inspiration:
+## Inspiration:
 
 We try predict whether a potential promote at checkpoint in the test set will be promoted or not after the evaluation process.
+\
+&nbsp;
+\
+&nbsp;
 
-
-# Dataset Information:
+## Dataset Information:
 [It was uploaded in Kaggle, Click here to go to dataset](https://www.kaggle.com/arashnic/hr-ana/)
 
-![Dataset](https://gcdn.pbrd.co/images/FVUDQ82PMblf.png?o=1)
 
-## Switch to another file
+| Name of columns|Discerption|Type|
+|--|--|--
+ Employee_id | Unique ID for employee |  int64
+Department| Department of employee|object
+Region| Region of employment (unordered) |object
+Education | Education Level | object
+Gender |Gender of Employee | object
+Recruitment_channel| Channel of recruitment for employee|object
+No_of_trainings|No of other trainings completed in previous year on soft skills, technical skills etc.|int64
+Age|Age of Employee|int64
+Previous_year_rating|Employee Rating for the previous year|float64
+Length_of_service|Length of service in years|int64
+Awards_won | If awards won during previous year then 1 else 0|int64
+Avg_training_score|Average score in current training evaluations|int64
+Is_promoted|Recommended for promotion (Target)|int64
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+\
+&nbsp;
+\
+&nbsp;
 
-## Rename a file
+## Cunclusion:
+1. Classifier Performance Metrics of interest.
+2. Random over-sampling for  Handling  Imbalance  Data.
+3. XGBoost is the Best Classifier for this dataset.
+###### With Accuracy = 53.43 , precision  =  12 ,  recall  =  69 ,  F-1  =  20.4
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+\
+&nbsp;
+\
+&nbsp;
+## Future Work:
+1. Correcting errors, if any
+2. Work on tuning the classifiers  more,  and  try  other  classifiers
+\
+&nbsp;
+\
+&nbsp;
+## Tools:
+1. Python Programming Language
+2. Jupyter Notebook (Pandas, Seaborn, Scikit-learn, Plotly)
+3. Microsoft Office 
+\
+&nbsp;
+\
+&nbsp;
 
-## Delete a file
+## Team members:
+- [ ]  [Abdulmajeed Mesfir Alnfaie](https://github.com/AbdulamjeedAlnefaie)
+- [ ]  [Nouf Buqaysh Alshabani](https://github.com/Noufalshabani)
+- [ ]  [Ahmad Yahya Hakami](https://github.com/AhmadHakami)
 
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
-
-## Export a file
-
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
-
-
-# Synchronization
-
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
-
-There are two types of synchronization and they can complement each other:
-
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
-
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
-
-## Open a file
-
-You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
-
-## Save a file
-
-You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
-
-## Synchronize a file
-
-Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
-
-If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
-
-> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
-
-## Manage file synchronization
-
-Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
-
-
-# Publication
-
-Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
-
-> Before starting to publish, you must link an account in the **Publish** sub-menu.
-
-## Publish a File
-
-You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
-
-- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
-
-## Update a publication
-
-After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
-
-> **Note:** The **Publish now** button is disabled if your file has not been published yet.
-
-## Manage file publication
-
-Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
-
-
-# Markdown extensions
-
-StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
-
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
-
-
-## SmartyPants
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
-
-## KaTeX
-
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
-
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
