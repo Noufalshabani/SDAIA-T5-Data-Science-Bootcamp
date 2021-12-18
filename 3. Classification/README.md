@@ -1,4 +1,4 @@
-<img align="right" width="300" height="90" src="https://upload.wikimedia.org/wikipedia/ar/2/21/%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9_%D8%B3%D8%AF%D8%A7%D9%8A%D8%A7.png">
+<img align="right" width="380" height="90" src="https://upload.wikimedia.org/wikipedia/ar/2/21/%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9_%D8%B3%D8%AF%D8%A7%D9%8A%D8%A7.png">
 
 
 \
