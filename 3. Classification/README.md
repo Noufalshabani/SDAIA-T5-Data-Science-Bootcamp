@@ -29,14 +29,10 @@
 There are many companies trying to determine which employees are eligible for a promotion by a certain evaluation, and with thousands of employees, this is delaying the transition to new positions. Hence, the company needs to help identify the qualified candidates at a particular checkpoint so that they can speed up the entire promotion cycle.
 \
 &nbsp;
-\
-&nbsp;
 
 ## Inspiration:
 
 We try predict whether a potential promote at checkpoint in the test set will be promoted or not after the evaluation process.
-\
-&nbsp;
 \
 &nbsp;
 
@@ -62,8 +58,6 @@ Is_promoted|Recommended for promotion (Target)|int64
 
 \
 &nbsp;
-\
-&nbsp;
 
 ## Cunclusion:
 1. Classifier Performance Metrics of interest.
@@ -73,23 +67,20 @@ Is_promoted|Recommended for promotion (Target)|int64
 
 \
 &nbsp;
-\
-&nbsp;
+
 ## Future Work:
 1. Correcting errors, if any
 2. Work on tuning the classifiers  more,  and  try  other  classifiers
 \
 &nbsp;
-\
-&nbsp;
+
 ## Tools:
 1. Python Programming Language
 2. Jupyter Notebook (Pandas, Seaborn, Scikit-learn, Plotly)
 3. Microsoft Office 
 \
 &nbsp;
-\
-&nbsp;
+
 
 ## Team members:
 - [ ]  [Abdulmajeed Mesfir Alnfaie](https://github.com/AbdulamjeedAlnefaie)
