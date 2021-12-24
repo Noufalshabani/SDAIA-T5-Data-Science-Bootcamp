@@ -16,9 +16,6 @@
 
  
 
-<p align="center">
-  <img width="460" height="300" src="https://t4.ftcdn.net/jpg/04/15/29/51/240_F_415295138_VZEnsaqSSgQ8py40Td5shJJb6JdfFlwb.jpg">
-</p>
 
 \
 &nbsp;
